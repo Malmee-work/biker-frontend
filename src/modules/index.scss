@@ -1,0 +1,55 @@
+.parcel {
+  padding-top: 4rem;
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+.main-title {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+.parcel-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.date-picker-body {
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.parcel-link {
+  color: white;
+  &:hover {
+    color:black;
+  }
+}
+
+.action-button {
+  @media screen and (max-width: 768px) {
+    font-size: 8px !important;
+    padding: 2px
+}
+}
